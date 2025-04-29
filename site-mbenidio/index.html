@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MBenidio Arquitetura e Interior</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f4f3f0;
+      color: #333;
+    }
+    header {
+      background-color: #fff;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-bottom: 1px solid #ccc;
+    }
+    header img {
+      height: 100px;
+    }
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h1, h2 {
+      color: #444;
+    }
+    p {
+      line-height: 1.6;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea, button {
+      padding: 0.75rem;
+      border: 1px solid #aaa;
+      border-radius: 6px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #2c615b;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #244d49;
+    }
+    footer {
+      background-color: #e0ded9;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="mirian-b-logo.png" alt="MBenidio Arquitetura e Interior Logo" />
+  </header>
+  <main>
+    <section>
+      <h1>Bem-vindo ao MBenidio Arquitetura e Interior</h1>
+      <p><em>“Cada espaço guarda um potencial de alegria. As cores, os materiais e as texturas falam connosco, acolhem-nos, inspiram-nos. A casa é palco de tantas coisas belas – é onde a personalidade do dono se torna visível em cada detalhe.”</em></p>
+    </section>
+
+    <section>
+      <h2>Sobre mim</h2>
+      <p>Sou a arquiteta Mirian, responsável pelos projetos do MBenidio. Contamos com uma equipa coesa, pronta para satisfazer as necessidades dos nossos clientes. Temos cerca de oito anos de experiência, incluindo passagens por duas grandes empresas internacionais.</p>
+    </section>
+
+    <section>
+      <h2>Serviços</h2>
+      <ul>
+        <li>Projectos de arquitectura</li>
+        <li>Projectos de interiores</li>
+        <li>Consultoria em arquitectura e interiores</li>
+        <li>Acompanhamento técnico</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Descreva o seu projecto</h2>
+      <form action="mailto:mbenidioarte@outlook.com" method="post" enctype="text/plain">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="Nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required />
+
+        <label for="mensagem">Conte-nos o que pretende:</label>
+        <textarea id="mensagem" name="Mensagem" rows="6" placeholder="Descreva as necessidades, número de divisões, estilo desejado, localização, etc." required></textarea>
+
+        <button type="submit">Enviar descrição do projecto</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contacto: <a href="mailto:mbenidioarte@outlook.com">mbenidioarte@outlook.com</a></p>
+    <p>WhatsApp: 942090572 / 950544060</p>
+    <p>&copy; 2025 MBenidio Arquitetura e Interior</p>
+  </footer>
+</body>
+</html>
